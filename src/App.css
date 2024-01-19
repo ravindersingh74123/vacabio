@@ -1,0 +1,21 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.streak {
+  position: absolute;
+  padding: 10px;
+  background-color: #3498db; 
+  color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-out; 
+}
+
+.streak:hover {
+  transform: scale(1.1); 
+}
